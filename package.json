@@ -1,0 +1,28 @@
+{
+  "name": "stikky-cms",
+  "version": "0.0.1",
+  "description": "A CMS for creating inter-related content.",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamsap/stikky-cms.git"
+  },
+  "author": "robbymillsap@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamsap/stikky-cms/issues"
+  },
+  "homepage": "https://github.com/iamsap/stikky-cms#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jasmine": "^2.5.1",
+    "nodemon": "^1.10.2",
+    "q": "^1.4.1",
+    "sequelize": "^3.24.3",
+    "sequelize-cli": "^2.4.0",
+    "winston": "^2.2.0"
+  }
+}
