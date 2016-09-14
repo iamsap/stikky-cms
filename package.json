@@ -4,7 +4,8 @@
   "description": "A CMS for creating inter-related content.",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/.bin/nodemon index.js"
+    "start": "./node_modules/.bin/nodemon index.js",
+    "update-db": "./node_modules/.bin/sequelize db:migrate"
   },
   "repository": {
     "type": "git",
